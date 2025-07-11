@@ -35,7 +35,7 @@ async def main():
                           int(os.getenv('TELEGRAM_API_ID')), 
                           os.getenv('TELEGRAM_API_HASH'))
     await client.start()
-    channels = ['https://t.me/lobelia4cosmetics', 'https://t.me/tikvahpharma']
+    channels = ['https://t.me/lobelia4cosmetics', 'https://t.me/tikvahpharma', 'https://t.me/CheMed123']
     for channel in channels:
         await scrape_channel(client, channel, 'data/raw/telegram_messages')
 
