@@ -19,4 +19,4 @@ jobs:
 
       - name: Install dependencies
         run: |
-          python -m pip insta
+          python -m pip install
