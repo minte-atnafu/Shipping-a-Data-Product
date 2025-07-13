@@ -26,18 +26,29 @@ def load_to_postgres():
         )
     """)
     
-    data_dir = 'data/raw/telegram_messages'
-    for date_folder in os.listdir(data_dir):
-        for channel in os.listdir(os.path.join(data_dir, date_folder)):
-            channel_path = os.path.join(data_dir, date_folder, channel)
+    data_dir = '../data/raw/telegram_messages/2025-07-11'
+    load_date = '2025-07-11'
+    if not os.path.exists(data_dir):
+      logging.error(f"Data directory not found: {data_dir}")
+      print(f"Error: Data directory not found: {data_dir}")
+      return
+
+    for channel in os.listdir(data_dir):
+        channel_path = os.path.join(data_dir, channel)
+        if os.path.isdir(channel_path):
             for file in os.listdir(channel_path):
                 if file.endswith('.json'):
-                    with open(os.path.join(channel_path, file)) as f:
-                        message = json.load(f)
-                        cursor.execute(
-                            "INSERT INTO telegram_messages (channel_name, message, load_date) VALUES (%s, %s, %s)",
-                            (channel, json.dumps(message), date_folder)
-                        )
+                    file_path = os.path.join(channel_path, file)
+                    with open(file_path, 'r', encoding='utf-8') as f:
+                        try:
+                            message = json.load(f)
+                            cursor.execute(
+                                "INSERT INTO telegram_messages (channel_name, message, load_date) VALUES (%s, %s, %s)",
+                                (channel, json.dumps(message), load_date)
+                            )
+                        except Exception as e:
+                            logging.error(f"Error processing file {file_path}: {e}")
+
     conn.commit()
     cursor.close()
     conn.close()
