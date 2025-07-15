@@ -1,0 +1,752 @@
+INFO:root:YOLO enrichment completed
+INFO:root:YOLO enrichment completed
+INFO:root:YOLO enrichment completed
+INFO:root:YOLO enrichment completed
+INFO:root:YOLO enrichment completed
+2025-07-15 12:06:40,268 - ERROR - Error during enrichment process: [WinError 3] The system cannot find the path specified: 'data\\raw\\telegram_messages'
+2025-07-15 12:10:37,268 - INFO - Skipping non-image file: 1.json
+2025-07-15 12:10:40,887 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\CheMed\10.jpg
+2025-07-15 12:10:40,888 - INFO - Skipping non-image file: 10.json
+2025-07-15 12:10:41,104 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\CheMed\11.jpg
+2025-07-15 12:10:41,104 - INFO - Skipping non-image file: 11.json
+2025-07-15 12:10:41,373 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\CheMed\13.jpg
+2025-07-15 12:10:41,374 - INFO - Skipping non-image file: 13.json
+2025-07-15 12:10:41,710 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\CheMed\14.jpg
+2025-07-15 12:10:41,710 - INFO - Skipping non-image file: 14.json
+2025-07-15 12:10:42,082 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\CheMed\15.jpg
+2025-07-15 12:10:42,083 - INFO - Skipping non-image file: 15.json
+2025-07-15 12:10:42,266 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\CheMed\17.jpg
+2025-07-15 12:10:42,266 - INFO - Skipping non-image file: 17.json
+2025-07-15 12:10:42,506 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\CheMed\18.jpg
+2025-07-15 12:10:42,506 - INFO - Skipping non-image file: 18.json
+2025-07-15 12:10:42,721 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\CheMed\19.jpg
+2025-07-15 12:10:42,721 - INFO - Skipping non-image file: 19.json
+2025-07-15 12:10:42,900 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\CheMed\2.jpg
+2025-07-15 12:10:42,901 - INFO - Skipping non-image file: 2.json
+2025-07-15 12:10:43,046 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\CheMed\20.jpg
+2025-07-15 12:10:43,046 - INFO - Skipping non-image file: 20.json
+2025-07-15 12:10:43,205 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\CheMed\21.jpg
+2025-07-15 12:10:43,205 - INFO - Skipping non-image file: 21.json
+2025-07-15 12:10:43,347 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\CheMed\22.jpg
+2025-07-15 12:10:43,347 - INFO - Skipping non-image file: 22.json
+2025-07-15 12:10:43,477 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\CheMed\23.jpg
+2025-07-15 12:10:43,477 - INFO - Skipping non-image file: 23.json
+2025-07-15 12:10:43,616 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\CheMed\25.jpg
+2025-07-15 12:10:43,616 - INFO - Skipping non-image file: 25.json
+2025-07-15 12:10:43,778 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\CheMed\26.jpg
+2025-07-15 12:10:43,778 - INFO - Skipping non-image file: 26.json
+2025-07-15 12:10:43,908 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\CheMed\27.jpg
+2025-07-15 12:10:43,908 - INFO - Skipping non-image file: 27.json
+2025-07-15 12:10:44,033 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\CheMed\29.jpg
+2025-07-15 12:10:44,033 - INFO - Skipping non-image file: 29.json
+2025-07-15 12:10:44,181 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\CheMed\3.jpg
+2025-07-15 12:10:44,181 - INFO - Skipping non-image file: 3.json
+2025-07-15 12:10:44,314 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\CheMed\30.jpg
+2025-07-15 12:10:44,314 - INFO - Skipping non-image file: 30.json
+2025-07-15 12:10:44,441 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\CheMed\31.jpg
+2025-07-15 12:10:44,441 - INFO - Skipping non-image file: 31.json
+2025-07-15 12:10:44,586 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\CheMed\32.jpg
+2025-07-15 12:10:44,586 - INFO - Skipping non-image file: 32.json
+2025-07-15 12:10:44,730 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\CheMed\33.jpg
+2025-07-15 12:10:44,731 - INFO - Skipping non-image file: 33.json
+2025-07-15 12:10:44,860 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\CheMed\34.jpg
+2025-07-15 12:10:44,861 - INFO - Skipping non-image file: 34.json
+2025-07-15 12:10:45,010 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\CheMed\38.jpg
+2025-07-15 12:10:45,010 - INFO - Skipping non-image file: 38.json
+2025-07-15 12:10:45,129 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\CheMed\39.jpg
+2025-07-15 12:10:45,129 - INFO - Skipping non-image file: 39.json
+2025-07-15 12:10:45,278 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\CheMed\4.jpg
+2025-07-15 12:10:45,278 - INFO - Skipping non-image file: 4.json
+2025-07-15 12:10:45,396 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\CheMed\40.jpg
+2025-07-15 12:10:45,396 - INFO - Skipping non-image file: 40.json
+2025-07-15 12:10:45,552 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\CheMed\41.jpg
+2025-07-15 12:10:45,552 - INFO - Skipping non-image file: 41.json
+2025-07-15 12:10:45,706 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\CheMed\43.jpg
+2025-07-15 12:10:45,706 - INFO - Skipping non-image file: 43.json
+2025-07-15 12:10:45,828 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\CheMed\44.jpg
+2025-07-15 12:10:45,828 - INFO - Skipping non-image file: 44.json
+2025-07-15 12:10:45,981 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\CheMed\45.jpg
+2025-07-15 12:10:45,981 - INFO - Skipping non-image file: 45.json
+2025-07-15 12:10:46,133 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\CheMed\46.jpg
+2025-07-15 12:10:46,133 - INFO - Skipping non-image file: 46.json
+2025-07-15 12:10:46,300 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\CheMed\48.jpg
+2025-07-15 12:10:46,300 - INFO - Skipping non-image file: 48.json
+2025-07-15 12:10:46,466 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\CheMed\49.jpg
+2025-07-15 12:10:46,466 - INFO - Skipping non-image file: 49.json
+2025-07-15 12:10:46,633 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\CheMed\50.jpg
+2025-07-15 12:10:46,633 - INFO - Skipping non-image file: 50.json
+2025-07-15 12:10:46,633 - INFO - Skipping non-image file: 51.json
+2025-07-15 12:10:46,802 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\CheMed\52.jpg
+2025-07-15 12:10:46,802 - INFO - Skipping non-image file: 52.json
+2025-07-15 12:10:46,955 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\CheMed\53.jpg
+2025-07-15 12:10:46,955 - INFO - Skipping non-image file: 53.json
+2025-07-15 12:10:47,138 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\CheMed\55.jpg
+2025-07-15 12:10:47,138 - INFO - Skipping non-image file: 55.json
+2025-07-15 12:10:47,356 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\CheMed\56.jpg
+2025-07-15 12:10:47,356 - INFO - Skipping non-image file: 56.json
+2025-07-15 12:10:47,504 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\CheMed\57.jpg
+2025-07-15 12:10:47,504 - INFO - Skipping non-image file: 57.json
+2025-07-15 12:10:47,650 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\CheMed\58.jpg
+2025-07-15 12:10:47,650 - INFO - Skipping non-image file: 58.json
+2025-07-15 12:10:47,819 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\CheMed\59.jpg
+2025-07-15 12:10:47,819 - INFO - Skipping non-image file: 59.json
+2025-07-15 12:10:47,819 - INFO - Skipping non-image file: 6.json
+2025-07-15 12:10:47,987 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\CheMed\60.jpg
+2025-07-15 12:10:47,987 - INFO - Skipping non-image file: 60.json
+2025-07-15 12:10:47,987 - INFO - Skipping non-image file: 62.json
+2025-07-15 12:10:48,170 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\CheMed\64.jpg
+2025-07-15 12:10:48,170 - INFO - Skipping non-image file: 64.json
+2025-07-15 12:10:48,344 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\CheMed\67.jpg
+2025-07-15 12:10:48,344 - INFO - Skipping non-image file: 67.json
+2025-07-15 12:10:48,344 - INFO - Skipping non-image file: 7.json
+2025-07-15 12:10:48,482 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\CheMed\70.jpg
+2025-07-15 12:10:48,482 - INFO - Skipping non-image file: 70.json
+2025-07-15 12:10:48,625 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\CheMed\71.jpg
+2025-07-15 12:10:48,625 - INFO - Skipping non-image file: 71.json
+2025-07-15 12:10:48,625 - INFO - Skipping non-image file: 73.json
+2025-07-15 12:10:48,845 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\CheMed\74.jpg
+2025-07-15 12:10:48,845 - INFO - Skipping non-image file: 74.json
+2025-07-15 12:10:49,043 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\CheMed\75.jpg
+2025-07-15 12:10:49,043 - INFO - Skipping non-image file: 75.json
+2025-07-15 12:10:49,178 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\CheMed\76.jpg
+2025-07-15 12:10:49,178 - INFO - Skipping non-image file: 76.json
+2025-07-15 12:10:49,351 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\CheMed\77.jpg
+2025-07-15 12:10:49,351 - INFO - Skipping non-image file: 77.json
+2025-07-15 12:10:49,522 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\CheMed\78.jpg
+2025-07-15 12:10:49,522 - INFO - Skipping non-image file: 78.json
+2025-07-15 12:10:49,707 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\CheMed\79.jpg
+2025-07-15 12:10:49,708 - INFO - Skipping non-image file: 79.json
+2025-07-15 12:10:49,852 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\CheMed\80.jpg
+2025-07-15 12:10:49,852 - INFO - Skipping non-image file: 80.json
+2025-07-15 12:10:50,034 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\CheMed\81.jpg
+2025-07-15 12:10:50,034 - INFO - Skipping non-image file: 81.json
+2025-07-15 12:10:50,217 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\CheMed\82.jpg
+2025-07-15 12:10:50,217 - INFO - Skipping non-image file: 82.json
+2025-07-15 12:10:50,388 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\CheMed\85.jpg
+2025-07-15 12:10:50,389 - INFO - Skipping non-image file: 85.json
+2025-07-15 12:10:50,566 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\CheMed\86.jpg
+2025-07-15 12:10:50,566 - INFO - Skipping non-image file: 86.json
+2025-07-15 12:10:50,735 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\CheMed\87.jpg
+2025-07-15 12:10:50,735 - INFO - Skipping non-image file: 87.json
+2025-07-15 12:10:50,909 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\CheMed\88.jpg
+2025-07-15 12:10:50,909 - INFO - Skipping non-image file: 88.json
+2025-07-15 12:10:50,909 - INFO - Skipping non-image file: 89.json
+2025-07-15 12:10:51,067 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\CheMed\9.jpg
+2025-07-15 12:10:51,067 - INFO - Skipping non-image file: 9.json
+2025-07-15 12:10:51,246 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\CheMed\90.jpg
+2025-07-15 12:10:51,246 - INFO - Skipping non-image file: 90.json
+2025-07-15 12:10:51,416 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\CheMed\91.jpg
+2025-07-15 12:10:51,416 - INFO - Skipping non-image file: 91.json
+2025-07-15 12:10:51,596 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\CheMed\92.jpg
+2025-07-15 12:10:51,596 - INFO - Skipping non-image file: 92.json
+2025-07-15 12:10:51,790 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\CheMed\93.jpg
+2025-07-15 12:10:51,790 - INFO - Skipping non-image file: 93.json
+2025-07-15 12:10:51,972 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\CheMed\94.jpg
+2025-07-15 12:10:51,972 - INFO - Skipping non-image file: 94.json
+2025-07-15 12:10:52,168 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\CheMed\95.jpg
+2025-07-15 12:10:52,168 - INFO - Skipping non-image file: 95.json
+2025-07-15 12:10:52,351 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\CheMed\96.jpg
+2025-07-15 12:10:52,351 - INFO - Skipping non-image file: 96.json
+2025-07-15 12:10:52,547 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\CheMed\97.jpg
+2025-07-15 12:10:52,547 - INFO - Skipping non-image file: 97.json
+2025-07-15 12:10:52,724 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18224.jpg
+2025-07-15 12:10:52,724 - INFO - Skipping non-image file: 18224.json
+2025-07-15 12:10:53,032 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18225.jpg
+2025-07-15 12:10:53,032 - INFO - Skipping non-image file: 18225.json
+2025-07-15 12:10:53,224 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18226.jpg
+2025-07-15 12:10:53,224 - INFO - Skipping non-image file: 18226.json
+2025-07-15 12:10:53,400 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18227.jpg
+2025-07-15 12:10:53,400 - INFO - Skipping non-image file: 18227.json
+2025-07-15 12:10:53,605 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18228.jpg
+2025-07-15 12:10:53,606 - INFO - Skipping non-image file: 18228.json
+2025-07-15 12:10:53,775 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18229.jpg
+2025-07-15 12:10:53,775 - INFO - Skipping non-image file: 18229.json
+2025-07-15 12:10:53,954 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18230.jpg
+2025-07-15 12:10:53,955 - INFO - Skipping non-image file: 18230.json
+2025-07-15 12:10:54,177 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18231.jpg
+2025-07-15 12:10:54,177 - INFO - Skipping non-image file: 18231.json
+2025-07-15 12:10:54,352 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18232.jpg
+2025-07-15 12:10:54,353 - INFO - Skipping non-image file: 18232.json
+2025-07-15 12:10:54,523 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18233.jpg
+2025-07-15 12:10:54,523 - INFO - Skipping non-image file: 18233.json
+2025-07-15 12:10:54,691 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18234.jpg
+2025-07-15 12:10:54,691 - INFO - Skipping non-image file: 18234.json
+2025-07-15 12:10:54,893 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18235.jpg
+2025-07-15 12:10:54,893 - INFO - Skipping non-image file: 18235.json
+2025-07-15 12:10:55,039 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18236.jpg
+2025-07-15 12:10:55,040 - INFO - Skipping non-image file: 18236.json
+2025-07-15 12:10:55,229 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18237.jpg
+2025-07-15 12:10:55,229 - INFO - Skipping non-image file: 18237.json
+2025-07-15 12:10:55,389 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18238.jpg
+2025-07-15 12:10:55,389 - INFO - Skipping non-image file: 18238.json
+2025-07-15 12:10:55,541 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18239.jpg
+2025-07-15 12:10:55,541 - INFO - Skipping non-image file: 18239.json
+2025-07-15 12:10:55,707 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18240.jpg
+2025-07-15 12:10:55,707 - INFO - Skipping non-image file: 18240.json
+2025-07-15 12:10:55,879 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18241.jpg
+2025-07-15 12:10:55,880 - INFO - Skipping non-image file: 18241.json
+2025-07-15 12:10:56,054 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18242.jpg
+2025-07-15 12:10:56,054 - INFO - Skipping non-image file: 18242.json
+2025-07-15 12:10:56,248 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18243.jpg
+2025-07-15 12:10:56,248 - INFO - Skipping non-image file: 18243.json
+2025-07-15 12:10:56,456 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18244.jpg
+2025-07-15 12:10:56,456 - INFO - Skipping non-image file: 18244.json
+2025-07-15 12:10:56,624 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18245.jpg
+2025-07-15 12:10:56,624 - INFO - Skipping non-image file: 18245.json
+2025-07-15 12:10:56,789 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18246.jpg
+2025-07-15 12:10:56,789 - INFO - Skipping non-image file: 18246.json
+2025-07-15 12:10:56,964 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18247.jpg
+2025-07-15 12:10:56,964 - INFO - Skipping non-image file: 18247.json
+2025-07-15 12:10:57,146 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18248.jpg
+2025-07-15 12:10:57,146 - INFO - Skipping non-image file: 18248.json
+2025-07-15 12:10:57,312 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18249.jpg
+2025-07-15 12:10:57,313 - INFO - Skipping non-image file: 18249.json
+2025-07-15 12:10:57,482 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18250.jpg
+2025-07-15 12:10:57,482 - INFO - Skipping non-image file: 18250.json
+2025-07-15 12:10:57,652 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18251.jpg
+2025-07-15 12:10:57,652 - INFO - Skipping non-image file: 18251.json
+2025-07-15 12:10:57,798 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18252.jpg
+2025-07-15 12:10:57,798 - INFO - Skipping non-image file: 18252.json
+2025-07-15 12:10:57,969 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18253.jpg
+2025-07-15 12:10:57,969 - INFO - Skipping non-image file: 18253.json
+2025-07-15 12:10:58,140 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18254.jpg
+2025-07-15 12:10:58,140 - INFO - Skipping non-image file: 18254.json
+2025-07-15 12:10:58,331 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18255.jpg
+2025-07-15 12:10:58,331 - INFO - Skipping non-image file: 18255.json
+2025-07-15 12:10:58,518 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18256.jpg
+2025-07-15 12:10:58,518 - INFO - Skipping non-image file: 18256.json
+2025-07-15 12:10:58,699 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18257.jpg
+2025-07-15 12:10:58,699 - INFO - Skipping non-image file: 18257.json
+2025-07-15 12:10:58,913 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18258.jpg
+2025-07-15 12:10:58,913 - INFO - Skipping non-image file: 18258.json
+2025-07-15 12:10:59,077 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18259.jpg
+2025-07-15 12:10:59,078 - INFO - Skipping non-image file: 18259.json
+2025-07-15 12:10:59,313 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18260.jpg
+2025-07-15 12:10:59,313 - INFO - Skipping non-image file: 18260.json
+2025-07-15 12:10:59,469 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18261.jpg
+2025-07-15 12:10:59,469 - INFO - Skipping non-image file: 18261.json
+2025-07-15 12:10:59,637 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18262.jpg
+2025-07-15 12:10:59,637 - INFO - Skipping non-image file: 18262.json
+2025-07-15 12:10:59,836 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18263.jpg
+2025-07-15 12:10:59,836 - INFO - Skipping non-image file: 18263.json
+2025-07-15 12:10:59,996 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18264.jpg
+2025-07-15 12:10:59,996 - INFO - Skipping non-image file: 18264.json
+2025-07-15 12:11:00,182 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18265.jpg
+2025-07-15 12:11:00,182 - INFO - Skipping non-image file: 18265.json
+2025-07-15 12:11:00,308 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18266.jpg
+2025-07-15 12:11:00,308 - INFO - Skipping non-image file: 18266.json
+2025-07-15 12:11:00,470 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18267.jpg
+2025-07-15 12:11:00,471 - INFO - Skipping non-image file: 18267.json
+2025-07-15 12:11:00,632 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18268.jpg
+2025-07-15 12:11:00,632 - INFO - Skipping non-image file: 18268.json
+2025-07-15 12:11:00,779 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18269.jpg
+2025-07-15 12:11:00,780 - INFO - Skipping non-image file: 18269.json
+2025-07-15 12:11:00,958 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18270.jpg
+2025-07-15 12:11:00,958 - INFO - Skipping non-image file: 18270.json
+2025-07-15 12:11:01,125 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18271.jpg
+2025-07-15 12:11:01,126 - INFO - Skipping non-image file: 18271.json
+2025-07-15 12:11:01,303 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18272.jpg
+2025-07-15 12:11:01,303 - INFO - Skipping non-image file: 18272.json
+2025-07-15 12:11:01,479 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18273.jpg
+2025-07-15 12:11:01,479 - INFO - Skipping non-image file: 18273.json
+2025-07-15 12:11:01,643 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18274.jpg
+2025-07-15 12:11:01,644 - INFO - Skipping non-image file: 18274.json
+2025-07-15 12:11:01,802 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18276.jpg
+2025-07-15 12:11:01,802 - INFO - Skipping non-image file: 18276.json
+2025-07-15 12:11:01,963 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18277.jpg
+2025-07-15 12:11:01,963 - INFO - Skipping non-image file: 18277.json
+2025-07-15 12:11:02,091 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18278.jpg
+2025-07-15 12:11:02,091 - INFO - Skipping non-image file: 18278.json
+2025-07-15 12:11:02,259 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18279.jpg
+2025-07-15 12:11:02,259 - INFO - Skipping non-image file: 18279.json
+2025-07-15 12:11:02,413 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18280.jpg
+2025-07-15 12:11:02,413 - INFO - Skipping non-image file: 18280.json
+2025-07-15 12:11:02,595 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18281.jpg
+2025-07-15 12:11:02,595 - INFO - Skipping non-image file: 18281.json
+2025-07-15 12:11:02,763 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18282.jpg
+2025-07-15 12:11:02,763 - INFO - Skipping non-image file: 18282.json
+2025-07-15 12:11:02,935 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18283.jpg
+2025-07-15 12:11:02,935 - INFO - Skipping non-image file: 18283.json
+2025-07-15 12:11:03,135 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18284.jpg
+2025-07-15 12:11:03,135 - INFO - Skipping non-image file: 18284.json
+2025-07-15 12:11:03,301 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18285.jpg
+2025-07-15 12:11:03,301 - INFO - Skipping non-image file: 18285.json
+2025-07-15 12:11:03,465 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18286.jpg
+2025-07-15 12:11:03,465 - INFO - Skipping non-image file: 18286.json
+2025-07-15 12:11:03,634 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18287.jpg
+2025-07-15 12:11:03,634 - INFO - Skipping non-image file: 18287.json
+2025-07-15 12:11:03,822 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18288.jpg
+2025-07-15 12:11:03,822 - INFO - Skipping non-image file: 18288.json
+2025-07-15 12:11:03,986 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18289.jpg
+2025-07-15 12:11:03,987 - INFO - Skipping non-image file: 18289.json
+2025-07-15 12:11:04,157 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18290.jpg
+2025-07-15 12:11:04,157 - INFO - Skipping non-image file: 18290.json
+2025-07-15 12:11:04,327 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18291.jpg
+2025-07-15 12:11:04,327 - INFO - Skipping non-image file: 18291.json
+2025-07-15 12:11:04,492 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18293.jpg
+2025-07-15 12:11:04,492 - INFO - Skipping non-image file: 18293.json
+2025-07-15 12:11:04,677 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18294.jpg
+2025-07-15 12:11:04,677 - INFO - Skipping non-image file: 18294.json
+2025-07-15 12:11:04,815 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18295.jpg
+2025-07-15 12:11:04,815 - INFO - Skipping non-image file: 18295.json
+2025-07-15 12:11:04,982 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18296.jpg
+2025-07-15 12:11:04,982 - INFO - Skipping non-image file: 18296.json
+2025-07-15 12:11:05,270 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18297.jpg
+2025-07-15 12:11:05,270 - INFO - Skipping non-image file: 18297.json
+2025-07-15 12:11:05,500 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18298.jpg
+2025-07-15 12:11:05,500 - INFO - Skipping non-image file: 18298.json
+2025-07-15 12:11:05,663 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18299.jpg
+2025-07-15 12:11:05,663 - INFO - Skipping non-image file: 18299.json
+2025-07-15 12:11:05,784 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18300.jpg
+2025-07-15 12:11:05,784 - INFO - Skipping non-image file: 18300.json
+2025-07-15 12:11:05,950 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18301.jpg
+2025-07-15 12:11:05,950 - INFO - Skipping non-image file: 18301.json
+2025-07-15 12:11:06,093 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18302.jpg
+2025-07-15 12:11:06,093 - INFO - Skipping non-image file: 18302.json
+2025-07-15 12:11:06,232 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18303.jpg
+2025-07-15 12:11:06,232 - INFO - Skipping non-image file: 18303.json
+2025-07-15 12:11:06,403 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18304.jpg
+2025-07-15 12:11:06,403 - INFO - Skipping non-image file: 18304.json
+2025-07-15 12:11:06,563 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18305.jpg
+2025-07-15 12:11:06,563 - INFO - Skipping non-image file: 18305.json
+2025-07-15 12:11:06,729 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18306.jpg
+2025-07-15 12:11:06,729 - INFO - Skipping non-image file: 18306.json
+2025-07-15 12:11:06,893 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18307.jpg
+2025-07-15 12:11:06,893 - INFO - Skipping non-image file: 18307.json
+2025-07-15 12:11:07,029 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18308.jpg
+2025-07-15 12:11:07,029 - INFO - Skipping non-image file: 18308.json
+2025-07-15 12:11:07,210 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18309.jpg
+2025-07-15 12:11:07,210 - INFO - Skipping non-image file: 18309.json
+2025-07-15 12:11:07,375 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18310.jpg
+2025-07-15 12:11:07,375 - INFO - Skipping non-image file: 18310.json
+2025-07-15 12:11:07,597 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18311.jpg
+2025-07-15 12:11:07,597 - INFO - Skipping non-image file: 18311.json
+2025-07-15 12:11:07,767 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18312.jpg
+2025-07-15 12:11:07,767 - INFO - Skipping non-image file: 18312.json
+2025-07-15 12:11:07,936 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18313.jpg
+2025-07-15 12:11:07,936 - INFO - Skipping non-image file: 18313.json
+2025-07-15 12:11:08,100 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18314.jpg
+2025-07-15 12:11:08,101 - INFO - Skipping non-image file: 18314.json
+2025-07-15 12:11:08,266 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18315.jpg
+2025-07-15 12:11:08,266 - INFO - Skipping non-image file: 18315.json
+2025-07-15 12:11:08,399 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18316.jpg
+2025-07-15 12:11:08,399 - INFO - Skipping non-image file: 18316.json
+2025-07-15 12:11:08,569 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18317.jpg
+2025-07-15 12:11:08,569 - INFO - Skipping non-image file: 18317.json
+2025-07-15 12:11:08,714 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18318.jpg
+2025-07-15 12:11:08,714 - INFO - Skipping non-image file: 18318.json
+2025-07-15 12:11:08,879 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18319.jpg
+2025-07-15 12:11:08,879 - INFO - Skipping non-image file: 18319.json
+2025-07-15 12:11:09,054 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18320.jpg
+2025-07-15 12:11:09,054 - INFO - Skipping non-image file: 18320.json
+2025-07-15 12:11:09,221 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18321.jpg
+2025-07-15 12:11:09,221 - INFO - Skipping non-image file: 18321.json
+2025-07-15 12:11:09,362 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18322.jpg
+2025-07-15 12:11:09,362 - INFO - Skipping non-image file: 18322.json
+2025-07-15 12:11:09,529 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18323.jpg
+2025-07-15 12:11:09,529 - INFO - Skipping non-image file: 18323.json
+2025-07-15 12:11:09,700 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18324.jpg
+2025-07-15 12:11:09,700 - INFO - Skipping non-image file: 18324.json
+2025-07-15 12:11:09,939 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18325.jpg
+2025-07-15 12:11:09,939 - INFO - Skipping non-image file: 18325.json
+2025-07-15 12:11:10,115 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18326.jpg
+2025-07-15 12:11:10,115 - INFO - Skipping non-image file: 18326.json
+2025-07-15 12:11:10,281 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18327.jpg
+2025-07-15 12:11:10,281 - INFO - Skipping non-image file: 18327.json
+2025-07-15 12:11:10,444 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18328.jpg
+2025-07-15 12:11:10,444 - INFO - Skipping non-image file: 18328.json
+2025-07-15 12:11:10,575 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18329.jpg
+2025-07-15 12:11:10,575 - INFO - Skipping non-image file: 18329.json
+2025-07-15 12:11:10,744 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18330.jpg
+2025-07-15 12:11:10,744 - INFO - Skipping non-image file: 18330.json
+2025-07-15 12:11:10,930 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18332.jpg
+2025-07-15 12:11:10,930 - INFO - Skipping non-image file: 18332.json
+2025-07-15 12:11:11,066 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18333.jpg
+2025-07-15 12:11:11,067 - INFO - Skipping non-image file: 18333.json
+2025-07-15 12:11:11,242 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18334.jpg
+2025-07-15 12:11:11,242 - INFO - Skipping non-image file: 18334.json
+2025-07-15 12:11:11,367 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18335.jpg
+2025-07-15 12:11:11,367 - INFO - Skipping non-image file: 18335.json
+2025-07-15 12:11:11,521 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18336.jpg
+2025-07-15 12:11:11,521 - INFO - Skipping non-image file: 18336.json
+2025-07-15 12:11:11,687 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18337.jpg
+2025-07-15 12:11:11,687 - INFO - Skipping non-image file: 18337.json
+2025-07-15 12:11:11,852 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18338.jpg
+2025-07-15 12:11:11,852 - INFO - Skipping non-image file: 18338.json
+2025-07-15 12:11:12,034 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18339.jpg
+2025-07-15 12:11:12,034 - INFO - Skipping non-image file: 18339.json
+2025-07-15 12:11:12,187 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18340.jpg
+2025-07-15 12:11:12,187 - INFO - Skipping non-image file: 18340.json
+2025-07-15 12:11:12,356 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18341.jpg
+2025-07-15 12:11:12,356 - INFO - Skipping non-image file: 18341.json
+2025-07-15 12:11:12,526 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18342.jpg
+2025-07-15 12:11:12,526 - INFO - Skipping non-image file: 18342.json
+2025-07-15 12:11:12,662 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18343.jpg
+2025-07-15 12:11:12,662 - INFO - Skipping non-image file: 18343.json
+2025-07-15 12:11:12,798 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18344.jpg
+2025-07-15 12:11:12,798 - INFO - Skipping non-image file: 18344.json
+2025-07-15 12:11:12,961 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18345.jpg
+2025-07-15 12:11:12,961 - INFO - Skipping non-image file: 18345.json
+2025-07-15 12:11:13,126 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18346.jpg
+2025-07-15 12:11:13,127 - INFO - Skipping non-image file: 18346.json
+2025-07-15 12:11:13,270 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18347.jpg
+2025-07-15 12:11:13,271 - INFO - Skipping non-image file: 18347.json
+2025-07-15 12:11:13,413 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18348.jpg
+2025-07-15 12:11:13,413 - INFO - Skipping non-image file: 18348.json
+2025-07-15 12:11:13,539 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18349.jpg
+2025-07-15 12:11:13,539 - INFO - Skipping non-image file: 18349.json
+2025-07-15 12:11:13,709 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18350.jpg
+2025-07-15 12:11:13,709 - INFO - Skipping non-image file: 18350.json
+2025-07-15 12:11:13,872 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18351.jpg
+2025-07-15 12:11:13,872 - INFO - Skipping non-image file: 18351.json
+2025-07-15 12:11:14,039 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18352.jpg
+2025-07-15 12:11:14,039 - INFO - Skipping non-image file: 18352.json
+2025-07-15 12:11:14,169 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18353.jpg
+2025-07-15 12:11:14,169 - INFO - Skipping non-image file: 18353.json
+2025-07-15 12:11:14,358 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18354.jpg
+2025-07-15 12:11:14,358 - INFO - Skipping non-image file: 18354.json
+2025-07-15 12:11:14,475 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18355.jpg
+2025-07-15 12:11:14,475 - INFO - Skipping non-image file: 18355.json
+2025-07-15 12:11:14,644 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18356.jpg
+2025-07-15 12:11:14,644 - INFO - Skipping non-image file: 18356.json
+2025-07-15 12:11:14,812 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18357.jpg
+2025-07-15 12:11:14,812 - INFO - Skipping non-image file: 18357.json
+2025-07-15 12:11:14,995 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18358.jpg
+2025-07-15 12:11:14,996 - INFO - Skipping non-image file: 18358.json
+2025-07-15 12:11:15,184 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18359.jpg
+2025-07-15 12:11:15,184 - INFO - Skipping non-image file: 18359.json
+2025-07-15 12:11:15,347 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18360.jpg
+2025-07-15 12:11:15,347 - INFO - Skipping non-image file: 18360.json
+2025-07-15 12:11:15,512 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18361.jpg
+2025-07-15 12:11:15,512 - INFO - Skipping non-image file: 18361.json
+2025-07-15 12:11:15,682 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18362.jpg
+2025-07-15 12:11:15,682 - INFO - Skipping non-image file: 18362.json
+2025-07-15 12:11:15,863 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18363.jpg
+2025-07-15 12:11:15,863 - INFO - Skipping non-image file: 18363.json
+2025-07-15 12:11:16,048 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18364.jpg
+2025-07-15 12:11:16,048 - INFO - Skipping non-image file: 18364.json
+2025-07-15 12:11:16,203 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18365.jpg
+2025-07-15 12:11:16,204 - INFO - Skipping non-image file: 18365.json
+2025-07-15 12:11:16,380 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18366.jpg
+2025-07-15 12:11:16,380 - INFO - Skipping non-image file: 18366.json
+2025-07-15 12:11:16,566 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18367.jpg
+2025-07-15 12:11:16,566 - INFO - Skipping non-image file: 18367.json
+2025-07-15 12:11:16,750 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18368.jpg
+2025-07-15 12:11:16,750 - INFO - Skipping non-image file: 18368.json
+2025-07-15 12:11:17,052 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18369.jpg
+2025-07-15 12:11:17,052 - INFO - Skipping non-image file: 18369.json
+2025-07-15 12:11:17,177 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18370.jpg
+2025-07-15 12:11:17,178 - INFO - Skipping non-image file: 18370.json
+2025-07-15 12:11:17,404 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18371.jpg
+2025-07-15 12:11:17,404 - INFO - Skipping non-image file: 18371.json
+2025-07-15 12:11:17,565 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18372.jpg
+2025-07-15 12:11:17,565 - INFO - Skipping non-image file: 18372.json
+2025-07-15 12:11:17,733 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18373.jpg
+2025-07-15 12:11:17,733 - INFO - Skipping non-image file: 18373.json
+2025-07-15 12:11:17,883 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18374.jpg
+2025-07-15 12:11:17,883 - INFO - Skipping non-image file: 18374.json
+2025-07-15 12:11:18,062 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18375.jpg
+2025-07-15 12:11:18,063 - INFO - Skipping non-image file: 18375.json
+2025-07-15 12:11:18,221 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18376.jpg
+2025-07-15 12:11:18,221 - INFO - Skipping non-image file: 18376.json
+2025-07-15 12:11:18,387 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18377.jpg
+2025-07-15 12:11:18,387 - INFO - Skipping non-image file: 18377.json
+2025-07-15 12:11:18,525 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18378.jpg
+2025-07-15 12:11:18,525 - INFO - Skipping non-image file: 18378.json
+2025-07-15 12:11:18,688 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18379.jpg
+2025-07-15 12:11:18,689 - INFO - Skipping non-image file: 18379.json
+2025-07-15 12:11:18,891 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18381.jpg
+2025-07-15 12:11:18,891 - INFO - Skipping non-image file: 18381.json
+2025-07-15 12:11:19,061 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18382.jpg
+2025-07-15 12:11:19,062 - INFO - Skipping non-image file: 18382.json
+2025-07-15 12:11:19,213 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18383.jpg
+2025-07-15 12:11:19,213 - INFO - Skipping non-image file: 18383.json
+2025-07-15 12:11:19,336 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18384.jpg
+2025-07-15 12:11:19,336 - INFO - Skipping non-image file: 18384.json
+2025-07-15 12:11:19,504 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18385.jpg
+2025-07-15 12:11:19,504 - INFO - Skipping non-image file: 18385.json
+2025-07-15 12:11:19,631 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18386.jpg
+2025-07-15 12:11:19,631 - INFO - Skipping non-image file: 18386.json
+2025-07-15 12:11:19,797 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18387.jpg
+2025-07-15 12:11:19,797 - INFO - Skipping non-image file: 18387.json
+2025-07-15 12:11:19,969 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18388.jpg
+2025-07-15 12:11:19,969 - INFO - Skipping non-image file: 18388.json
+2025-07-15 12:11:20,117 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18389.jpg
+2025-07-15 12:11:20,117 - INFO - Skipping non-image file: 18389.json
+2025-07-15 12:11:20,271 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18390.jpg
+2025-07-15 12:11:20,271 - INFO - Skipping non-image file: 18390.json
+2025-07-15 12:11:20,410 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18391.jpg
+2025-07-15 12:11:20,410 - INFO - Skipping non-image file: 18391.json
+2025-07-15 12:11:20,554 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18392.jpg
+2025-07-15 12:11:20,554 - INFO - Skipping non-image file: 18392.json
+2025-07-15 12:11:20,695 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18393.jpg
+2025-07-15 12:11:20,695 - INFO - Skipping non-image file: 18393.json
+2025-07-15 12:11:20,834 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18394.jpg
+2025-07-15 12:11:20,834 - INFO - Skipping non-image file: 18394.json
+2025-07-15 12:11:20,976 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18395.jpg
+2025-07-15 12:11:20,976 - INFO - Skipping non-image file: 18395.json
+2025-07-15 12:11:21,159 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18396.jpg
+2025-07-15 12:11:21,159 - INFO - Skipping non-image file: 18396.json
+2025-07-15 12:11:21,305 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18397.jpg
+2025-07-15 12:11:21,305 - INFO - Skipping non-image file: 18397.json
+2025-07-15 12:11:21,444 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18398.jpg
+2025-07-15 12:11:21,444 - INFO - Skipping non-image file: 18398.json
+2025-07-15 12:11:21,582 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18399.jpg
+2025-07-15 12:11:21,583 - INFO - Skipping non-image file: 18399.json
+2025-07-15 12:11:21,755 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18400.jpg
+2025-07-15 12:11:21,755 - INFO - Skipping non-image file: 18400.json
+2025-07-15 12:11:21,961 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18401.jpg
+2025-07-15 12:11:21,961 - INFO - Skipping non-image file: 18401.json
+2025-07-15 12:11:22,096 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18402.jpg
+2025-07-15 12:11:22,097 - INFO - Skipping non-image file: 18402.json
+2025-07-15 12:11:22,277 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18403.jpg
+2025-07-15 12:11:22,277 - INFO - Skipping non-image file: 18403.json
+2025-07-15 12:11:22,428 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18404.jpg
+2025-07-15 12:11:22,428 - INFO - Skipping non-image file: 18404.json
+2025-07-15 12:11:22,571 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18405.jpg
+2025-07-15 12:11:22,572 - INFO - Skipping non-image file: 18405.json
+2025-07-15 12:11:22,750 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18406.jpg
+2025-07-15 12:11:22,750 - INFO - Skipping non-image file: 18406.json
+2025-07-15 12:11:22,943 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18407.jpg
+2025-07-15 12:11:22,943 - INFO - Skipping non-image file: 18407.json
+2025-07-15 12:11:23,099 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18408.jpg
+2025-07-15 12:11:23,099 - INFO - Skipping non-image file: 18408.json
+2025-07-15 12:11:23,304 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18409.jpg
+2025-07-15 12:11:23,304 - INFO - Skipping non-image file: 18409.json
+2025-07-15 12:11:23,512 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18410.jpg
+2025-07-15 12:11:23,512 - INFO - Skipping non-image file: 18410.json
+2025-07-15 12:11:23,689 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18411.jpg
+2025-07-15 12:11:23,690 - INFO - Skipping non-image file: 18411.json
+2025-07-15 12:11:23,854 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18412.jpg
+2025-07-15 12:11:23,854 - INFO - Skipping non-image file: 18412.json
+2025-07-15 12:11:24,034 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18413.jpg
+2025-07-15 12:11:24,034 - INFO - Skipping non-image file: 18413.json
+2025-07-15 12:11:24,218 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18414.jpg
+2025-07-15 12:11:24,218 - INFO - Skipping non-image file: 18414.json
+2025-07-15 12:11:24,357 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18415.jpg
+2025-07-15 12:11:24,357 - INFO - Skipping non-image file: 18415.json
+2025-07-15 12:11:24,512 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18416.jpg
+2025-07-15 12:11:24,512 - INFO - Skipping non-image file: 18416.json
+2025-07-15 12:11:24,698 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18417.jpg
+2025-07-15 12:11:24,698 - INFO - Skipping non-image file: 18417.json
+2025-07-15 12:11:24,863 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18418.jpg
+2025-07-15 12:11:24,863 - INFO - Skipping non-image file: 18418.json
+2025-07-15 12:11:25,004 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18419.jpg
+2025-07-15 12:11:25,004 - INFO - Skipping non-image file: 18419.json
+2025-07-15 12:11:25,160 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18420.jpg
+2025-07-15 12:11:25,160 - INFO - Skipping non-image file: 18420.json
+2025-07-15 12:11:25,326 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18421.jpg
+2025-07-15 12:11:25,326 - INFO - Skipping non-image file: 18421.json
+2025-07-15 12:11:25,534 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18422.jpg
+2025-07-15 12:11:25,535 - INFO - Skipping non-image file: 18422.json
+2025-07-15 12:11:25,724 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18423.jpg
+2025-07-15 12:11:25,724 - INFO - Skipping non-image file: 18423.json
+2025-07-15 12:11:25,896 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18424.jpg
+2025-07-15 12:11:25,896 - INFO - Skipping non-image file: 18424.json
+2025-07-15 12:11:26,063 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18425.jpg
+2025-07-15 12:11:26,064 - INFO - Skipping non-image file: 18425.json
+2025-07-15 12:11:26,250 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18426.jpg
+2025-07-15 12:11:26,250 - INFO - Skipping non-image file: 18426.json
+2025-07-15 12:11:26,446 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18427.jpg
+2025-07-15 12:11:26,446 - INFO - Skipping non-image file: 18427.json
+2025-07-15 12:11:26,571 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18428.jpg
+2025-07-15 12:11:26,571 - INFO - Skipping non-image file: 18428.json
+2025-07-15 12:11:26,715 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18429.jpg
+2025-07-15 12:11:26,715 - INFO - Skipping non-image file: 18429.json
+2025-07-15 12:11:26,882 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18430.jpg
+2025-07-15 12:11:26,882 - INFO - Skipping non-image file: 18430.json
+2025-07-15 12:11:27,048 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18431.jpg
+2025-07-15 12:11:27,049 - INFO - Skipping non-image file: 18431.json
+2025-07-15 12:11:27,228 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18432.jpg
+2025-07-15 12:11:27,228 - INFO - Skipping non-image file: 18432.json
+2025-07-15 12:11:27,402 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18433.jpg
+2025-07-15 12:11:27,402 - INFO - Skipping non-image file: 18433.json
+2025-07-15 12:11:27,629 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18434.jpg
+2025-07-15 12:11:27,629 - INFO - Skipping non-image file: 18434.json
+2025-07-15 12:11:27,801 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18435.jpg
+2025-07-15 12:11:27,801 - INFO - Skipping non-image file: 18435.json
+2025-07-15 12:11:27,988 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18436.jpg
+2025-07-15 12:11:27,988 - INFO - Skipping non-image file: 18436.json
+2025-07-15 12:11:28,168 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18437.jpg
+2025-07-15 12:11:28,168 - INFO - Skipping non-image file: 18437.json
+2025-07-15 12:11:28,331 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18438.jpg
+2025-07-15 12:11:28,331 - INFO - Skipping non-image file: 18438.json
+2025-07-15 12:11:28,613 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18439.jpg
+2025-07-15 12:11:28,613 - INFO - Skipping non-image file: 18439.json
+2025-07-15 12:11:28,784 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18440.jpg
+2025-07-15 12:11:28,784 - INFO - Skipping non-image file: 18440.json
+2025-07-15 12:11:28,989 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18441.jpg
+2025-07-15 12:11:28,989 - INFO - Skipping non-image file: 18441.json
+2025-07-15 12:11:29,118 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18442.jpg
+2025-07-15 12:11:29,118 - INFO - Skipping non-image file: 18442.json
+2025-07-15 12:11:29,269 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18443.jpg
+2025-07-15 12:11:29,269 - INFO - Skipping non-image file: 18443.json
+2025-07-15 12:11:29,411 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18444.jpg
+2025-07-15 12:11:29,411 - INFO - Skipping non-image file: 18444.json
+2025-07-15 12:11:29,598 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18445.jpg
+2025-07-15 12:11:29,599 - INFO - Skipping non-image file: 18445.json
+2025-07-15 12:11:29,761 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18446.jpg
+2025-07-15 12:11:29,761 - INFO - Skipping non-image file: 18446.json
+2025-07-15 12:11:29,945 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18447.jpg
+2025-07-15 12:11:29,945 - INFO - Skipping non-image file: 18447.json
+2025-07-15 12:11:30,172 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18448.jpg
+2025-07-15 12:11:30,172 - INFO - Skipping non-image file: 18448.json
+2025-07-15 12:11:30,384 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18449.jpg
+2025-07-15 12:11:30,385 - INFO - Skipping non-image file: 18449.json
+2025-07-15 12:11:30,613 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18450.jpg
+2025-07-15 12:11:30,613 - INFO - Skipping non-image file: 18450.json
+2025-07-15 12:11:30,821 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18451.jpg
+2025-07-15 12:11:30,821 - INFO - Skipping non-image file: 18451.json
+2025-07-15 12:11:31,006 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18452.jpg
+2025-07-15 12:11:31,007 - INFO - Skipping non-image file: 18452.json
+2025-07-15 12:11:31,190 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18453.jpg
+2025-07-15 12:11:31,190 - INFO - Skipping non-image file: 18453.json
+2025-07-15 12:11:31,347 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18454.jpg
+2025-07-15 12:11:31,347 - INFO - Skipping non-image file: 18454.json
+2025-07-15 12:11:31,520 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18455.jpg
+2025-07-15 12:11:31,520 - INFO - Skipping non-image file: 18455.json
+2025-07-15 12:11:31,661 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18456.jpg
+2025-07-15 12:11:31,661 - INFO - Skipping non-image file: 18456.json
+2025-07-15 12:11:31,810 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18457.jpg
+2025-07-15 12:11:31,810 - INFO - Skipping non-image file: 18457.json
+2025-07-15 12:11:31,948 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18458.jpg
+2025-07-15 12:11:31,948 - INFO - Skipping non-image file: 18458.json
+2025-07-15 12:11:32,091 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18459.jpg
+2025-07-15 12:11:32,091 - INFO - Skipping non-image file: 18459.json
+2025-07-15 12:11:32,232 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18460.jpg
+2025-07-15 12:11:32,232 - INFO - Skipping non-image file: 18460.json
+2025-07-15 12:11:32,371 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18461.jpg
+2025-07-15 12:11:32,371 - INFO - Skipping non-image file: 18461.json
+2025-07-15 12:11:32,523 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18462.jpg
+2025-07-15 12:11:32,524 - INFO - Skipping non-image file: 18462.json
+2025-07-15 12:11:32,665 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18463.jpg
+2025-07-15 12:11:32,665 - INFO - Skipping non-image file: 18463.json
+2025-07-15 12:11:32,804 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18464.jpg
+2025-07-15 12:11:32,804 - INFO - Skipping non-image file: 18464.json
+2025-07-15 12:11:32,968 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18465.jpg
+2025-07-15 12:11:32,968 - INFO - Skipping non-image file: 18465.json
+2025-07-15 12:11:33,139 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18466.jpg
+2025-07-15 12:11:33,139 - INFO - Skipping non-image file: 18466.json
+2025-07-15 12:11:33,311 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18467.jpg
+2025-07-15 12:11:33,311 - INFO - Skipping non-image file: 18467.json
+2025-07-15 12:11:33,453 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18468.jpg
+2025-07-15 12:11:33,453 - INFO - Skipping non-image file: 18468.json
+2025-07-15 12:11:33,590 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18469.jpg
+2025-07-15 12:11:33,590 - INFO - Skipping non-image file: 18469.json
+2025-07-15 12:11:33,761 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18470.jpg
+2025-07-15 12:11:33,761 - INFO - Skipping non-image file: 18470.json
+2025-07-15 12:11:33,928 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18471.jpg
+2025-07-15 12:11:33,929 - INFO - Skipping non-image file: 18471.json
+2025-07-15 12:11:34,094 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18472.jpg
+2025-07-15 12:11:34,094 - INFO - Skipping non-image file: 18472.json
+2025-07-15 12:11:34,264 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18473.jpg
+2025-07-15 12:11:34,264 - INFO - Skipping non-image file: 18473.json
+2025-07-15 12:11:34,399 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18474.jpg
+2025-07-15 12:11:34,399 - INFO - Skipping non-image file: 18474.json
+2025-07-15 12:11:34,577 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18475.jpg
+2025-07-15 12:11:34,578 - INFO - Skipping non-image file: 18475.json
+2025-07-15 12:11:34,752 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18476.jpg
+2025-07-15 12:11:34,752 - INFO - Skipping non-image file: 18476.json
+2025-07-15 12:11:34,901 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18477.jpg
+2025-07-15 12:11:34,901 - INFO - Skipping non-image file: 18477.json
+2025-07-15 12:11:35,044 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18478.jpg
+2025-07-15 12:11:35,045 - INFO - Skipping non-image file: 18478.json
+2025-07-15 12:11:35,221 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18479.jpg
+2025-07-15 12:11:35,221 - INFO - Skipping non-image file: 18479.json
+2025-07-15 12:11:35,373 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18480.jpg
+2025-07-15 12:11:35,373 - INFO - Skipping non-image file: 18480.json
+2025-07-15 12:11:35,557 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18481.jpg
+2025-07-15 12:11:35,558 - INFO - Skipping non-image file: 18481.json
+2025-07-15 12:11:35,679 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18482.jpg
+2025-07-15 12:11:35,679 - INFO - Skipping non-image file: 18482.json
+2025-07-15 12:11:35,830 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18483.jpg
+2025-07-15 12:11:35,830 - INFO - Skipping non-image file: 18483.json
+2025-07-15 12:11:36,005 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18484.jpg
+2025-07-15 12:11:36,005 - INFO - Skipping non-image file: 18484.json
+2025-07-15 12:11:36,160 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18485.jpg
+2025-07-15 12:11:36,160 - INFO - Skipping non-image file: 18485.json
+2025-07-15 12:11:36,301 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18486.jpg
+2025-07-15 12:11:36,302 - INFO - Skipping non-image file: 18486.json
+2025-07-15 12:11:36,467 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18487.jpg
+2025-07-15 12:11:36,467 - INFO - Skipping non-image file: 18487.json
+2025-07-15 12:11:36,610 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18488.jpg
+2025-07-15 12:11:36,610 - INFO - Skipping non-image file: 18488.json
+2025-07-15 12:11:36,779 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18489.jpg
+2025-07-15 12:11:36,779 - INFO - Skipping non-image file: 18489.json
+2025-07-15 12:11:36,984 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18490.jpg
+2025-07-15 12:11:36,984 - INFO - Skipping non-image file: 18490.json
+2025-07-15 12:11:37,142 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18491.jpg
+2025-07-15 12:11:37,142 - INFO - Skipping non-image file: 18491.json
+2025-07-15 12:11:37,309 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18492.jpg
+2025-07-15 12:11:37,309 - INFO - Skipping non-image file: 18492.json
+2025-07-15 12:11:37,474 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18493.jpg
+2025-07-15 12:11:37,474 - INFO - Skipping non-image file: 18493.json
+2025-07-15 12:11:37,651 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18494.jpg
+2025-07-15 12:11:37,651 - INFO - Skipping non-image file: 18494.json
+2025-07-15 12:11:37,776 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18495.jpg
+2025-07-15 12:11:37,776 - INFO - Skipping non-image file: 18495.json
+2025-07-15 12:11:37,913 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18496.jpg
+2025-07-15 12:11:37,913 - INFO - Skipping non-image file: 18496.json
+2025-07-15 12:11:38,076 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18497.jpg
+2025-07-15 12:11:38,076 - INFO - Skipping non-image file: 18497.json
+2025-07-15 12:11:38,197 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18498.jpg
+2025-07-15 12:11:38,197 - INFO - Skipping non-image file: 18498.json
+2025-07-15 12:11:38,337 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18499.jpg
+2025-07-15 12:11:38,337 - INFO - Skipping non-image file: 18499.json
+2025-07-15 12:11:38,507 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18500.jpg
+2025-07-15 12:11:38,507 - INFO - Skipping non-image file: 18500.json
+2025-07-15 12:11:38,664 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18501.jpg
+2025-07-15 12:11:38,664 - INFO - Skipping non-image file: 18501.json
+2025-07-15 12:11:38,805 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18502.jpg
+2025-07-15 12:11:38,805 - INFO - Skipping non-image file: 18502.json
+2025-07-15 12:11:38,946 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18503.jpg
+2025-07-15 12:11:38,946 - INFO - Skipping non-image file: 18503.json
+2025-07-15 12:11:39,092 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18504.jpg
+2025-07-15 12:11:39,092 - INFO - Skipping non-image file: 18504.json
+2025-07-15 12:11:39,261 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18505.jpg
+2025-07-15 12:11:39,262 - INFO - Skipping non-image file: 18505.json
+2025-07-15 12:11:39,406 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18506.jpg
+2025-07-15 12:11:39,406 - INFO - Skipping non-image file: 18506.json
+2025-07-15 12:11:39,571 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18507.jpg
+2025-07-15 12:11:39,571 - INFO - Skipping non-image file: 18507.json
+2025-07-15 12:11:39,744 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18508.jpg
+2025-07-15 12:11:39,744 - INFO - Skipping non-image file: 18508.json
+2025-07-15 12:11:39,918 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18509.jpg
+2025-07-15 12:11:39,918 - INFO - Skipping non-image file: 18509.json
+2025-07-15 12:11:40,095 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18510.jpg
+2025-07-15 12:11:40,095 - INFO - Skipping non-image file: 18510.json
+2025-07-15 12:11:40,239 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18511.jpg
+2025-07-15 12:11:40,239 - INFO - Skipping non-image file: 18511.json
+2025-07-15 12:11:40,404 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18512.jpg
+2025-07-15 12:11:40,404 - INFO - Skipping non-image file: 18512.json
+2025-07-15 12:11:40,561 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18513.jpg
+2025-07-15 12:11:40,561 - INFO - Skipping non-image file: 18513.json
+2025-07-15 12:11:40,725 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18514.jpg
+2025-07-15 12:11:40,726 - INFO - Skipping non-image file: 18514.json
+2025-07-15 12:11:40,908 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18515.jpg
+2025-07-15 12:11:40,908 - INFO - Skipping non-image file: 18515.json
+2025-07-15 12:11:41,233 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18516.jpg
+2025-07-15 12:11:41,233 - INFO - Skipping non-image file: 18516.json
+2025-07-15 12:11:41,405 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18517.jpg
+2025-07-15 12:11:41,405 - INFO - Skipping non-image file: 18517.json
+2025-07-15 12:11:41,592 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18518.jpg
+2025-07-15 12:11:41,593 - INFO - Skipping non-image file: 18518.json
+2025-07-15 12:11:41,800 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18519.jpg
+2025-07-15 12:11:41,800 - INFO - Skipping non-image file: 18519.json
+2025-07-15 12:11:41,976 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18520.jpg
+2025-07-15 12:11:41,976 - INFO - Skipping non-image file: 18520.json
+2025-07-15 12:11:42,147 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18521.jpg
+2025-07-15 12:11:42,147 - INFO - Skipping non-image file: 18521.json
+2025-07-15 12:11:42,314 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18522.jpg
+2025-07-15 12:11:42,314 - INFO - Skipping non-image file: 18522.json
+2025-07-15 12:11:42,485 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18523.jpg
+2025-07-15 12:11:42,485 - INFO - Skipping non-image file: 18523.json
+2025-07-15 12:11:42,608 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18524.jpg
+2025-07-15 12:11:42,609 - INFO - Skipping non-image file: 18524.json
+2025-07-15 12:11:42,770 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18525.jpg
+2025-07-15 12:11:42,770 - INFO - Skipping non-image file: 18525.json
+2025-07-15 12:11:42,910 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18526.jpg
+2025-07-15 12:11:42,910 - INFO - Skipping non-image file: 18526.json
+2025-07-15 12:11:43,047 - INFO - Processed image: ..\data\raw\telegram_messages\2025-07-11\Lobelia pharmacy and cosmetics\18527.jpg
+2025-07-15 12:11:43,047 - INFO - Skipping non-image file: 18527.json
+2025-07-15 12:11:43,050 - INFO - YOLO enrichment completed successfully
