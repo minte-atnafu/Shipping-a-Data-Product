@@ -1881,3 +1881,385 @@ drop view if exists "medical_data"."public"."fct_messages__dbt_backup" cascade
 [0m17:06:57.904151 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020F1609B110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020F1416D190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020F13805DF0>]}
 [0m17:06:57.905176 [debug] [MainThread]: Flushing usage events
 [0m17:07:01.751943 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:41:21.867196 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C751475250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C7511E3800>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C750E57BF0>]}
+
+
+============================== 12:41:21.875204 | afa28bb0-ad17-4136-8861-5656643451fa ==============================
+[0m12:41:21.875204 [info ] [MainThread]: Running with dbt=1.10.4
+[0m12:41:21.876240 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'dbt_project', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'dbt_project\\logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt run --project-dir dbt_project --profiles-dir dbt_project --models fct_image_detections', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True'}
+[0m12:41:21.877204 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+Usage of `--models`, `--model`, and `-m` is deprecated in favor of `--select` or
+`-s`.
+[0m12:41:21.877204 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': 'afa28bb0-ad17-4136-8861-5656643451fa', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C750D240B0>]}
+[0m12:41:21.884207 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'POSTGRES_HOST'
+[0m12:41:21.885232 [warn ] [MainThread]: [[33mWARNING[0m][DeprecationsSummary]: Deprecated functionality
+Summary of encountered deprecations:
+- ModelParamUsageDeprecation: 1 occurrence
+To see all deprecation instances instead of just the first occurrence of each,
+run command again with the `--show-all-deprecations` flag. You may also need to
+run with `--no-partial-parse` as some deprecations are only encountered during
+parsing.
+[0m12:41:21.886216 [debug] [MainThread]: Command `dbt run` failed at 12:41:21.886216 after 0.23 seconds
+[0m12:41:21.886216 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C751147EC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C74D9C08F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C750D732C0>]}
+[0m12:41:21.887217 [debug] [MainThread]: Flushing usage events
+[0m12:41:22.639193 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:42:54.323325 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002009A8056A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002009A620C50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020099BEF020>]}
+
+
+============================== 12:42:54.327325 | bc6f509b-c4a4-4d60-9913-62ef7f2df95f ==============================
+[0m12:42:54.327325 [info ] [MainThread]: Running with dbt=1.10.4
+[0m12:42:54.327733 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'dbt_project\\logs', 'version_check': 'True', 'profiles_dir': 'dbt_project', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'invocation_command': 'dbt run --project-dir dbt_project --profiles-dir dbt_project --models fct_image_detections', 'send_anonymous_usage_stats': 'True'}
+[0m12:42:54.327733 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+Usage of `--models`, `--model`, and `-m` is deprecated in favor of `--select` or
+`-s`.
+[0m12:42:54.328739 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': 'bc6f509b-c4a4-4d60-9913-62ef7f2df95f', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002009AD25100>]}
+[0m12:42:54.332740 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'POSTGRES_HOST'
+[0m12:42:54.333740 [warn ] [MainThread]: [[33mWARNING[0m][DeprecationsSummary]: Deprecated functionality
+Summary of encountered deprecations:
+- ModelParamUsageDeprecation: 1 occurrence
+To see all deprecation instances instead of just the first occurrence of each,
+run command again with the `--show-all-deprecations` flag. You may also need to
+run with `--no-partial-parse` as some deprecations are only encountered during
+parsing.
+[0m12:42:54.334743 [debug] [MainThread]: Command `dbt run` failed at 12:42:54.334743 after 0.21 seconds
+[0m12:42:54.334743 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002009A88CE30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020097B43D70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002009AB539E0>]}
+[0m12:42:54.334743 [debug] [MainThread]: Flushing usage events
+[0m12:42:55.051759 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:43:23.003642 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000214A905BE60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000214A9319970>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000214A6ACBA40>]}
+
+
+============================== 12:43:23.012640 | b70e12de-f257-4076-b427-66d6d0b75ec8 ==============================
+[0m12:43:23.012640 [info ] [MainThread]: Running with dbt=1.10.4
+[0m12:43:23.013780 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'dbt_project', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'dbt_project\\logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt run --project-dir dbt_project --profiles-dir dbt_project --select fct_image_detections', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m12:43:23.287934 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'b70e12de-f257-4076-b427-66d6d0b75ec8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000214A988D700>]}
+[0m12:43:23.346019 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'b70e12de-f257-4076-b427-66d6d0b75ec8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000214A9A138C0>]}
+[0m12:43:23.347020 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m12:43:23.565184 [debug] [MainThread]: checksum: 073cb5a296270136b24f9c040fdebd0642ef9c263903ef463bfe7e190c538da2, vars: {}, profile: , target: , version: 1.10.4
+[0m12:43:23.731139 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 2 files added, 1 files changed.
+[0m12:43:23.731139 [debug] [MainThread]: Partial parsing: added file: medical_data_warehouse://models\marts\fct_image_detections.sql
+[0m12:43:23.732139 [debug] [MainThread]: Partial parsing: added file: medical_data_warehouse://models\marts\fct_image_detections.yml
+[0m12:43:23.732139 [debug] [MainThread]: Partial parsing: updated file: medical_data_warehouse://models\marts\fct_messages.sql
+[0m12:43:24.087920 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.medical_data_warehouse.fct_image_detections' (models\marts\fct_image_detections.sql) depends on a source named 'public.image_detections' which was not found
+[0m12:43:24.089871 [debug] [MainThread]: Command `dbt run` failed at 12:43:24.089871 after 1.26 seconds
+[0m12:43:24.089871 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000214A9B25190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000214A8FAD2E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000214AB847E30>]}
+[0m12:43:24.089871 [debug] [MainThread]: Flushing usage events
+[0m12:43:24.806537 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:49:11.995054 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B76E3D3F80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B770FC1D90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B770FC2A50>]}
+
+
+============================== 12:49:12.002103 | 9f15f0c9-5b97-4a45-ae68-3151371d984c ==============================
+[0m12:49:12.002103 [info ] [MainThread]: Running with dbt=1.10.4
+[0m12:49:12.003136 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'dbt_project', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'dbt_project\\logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'invocation_command': 'dbt run --project-dir dbt_project --profiles-dir dbt_project --select fct_image_detections', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True'}
+[0m12:49:12.248155 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '9f15f0c9-5b97-4a45-ae68-3151371d984c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B772D8DC70>]}
+[0m12:49:12.305155 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '9f15f0c9-5b97-4a45-ae68-3151371d984c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B76E5B6960>]}
+[0m12:49:12.307094 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m12:49:12.555718 [debug] [MainThread]: checksum: 073cb5a296270136b24f9c040fdebd0642ef9c263903ef463bfe7e190c538da2, vars: {}, profile: , target: , version: 1.10.4
+[0m12:49:12.633830 [warn ] [MainThread]: [[33mWARNING[0m][DuplicateYAMLKeysDeprecation]: Deprecated functionality
+Duplicate key 'tables' in "<unicode string>", line 8, column 5 in file
+`models\staging\schema.yml`
+[0m12:49:12.634829 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': '9f15f0c9-5b97-4a45-ae68-3151371d984c', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B772E710D0>]}
+[0m12:49:12.718946 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 2 files added, 2 files changed.
+[0m12:49:12.718946 [debug] [MainThread]: Partial parsing: added file: medical_data_warehouse://models\marts\fct_image_detections.sql
+[0m12:49:12.719946 [debug] [MainThread]: Partial parsing: added file: medical_data_warehouse://models\marts\fct_image_detections.yml
+[0m12:49:12.719946 [debug] [MainThread]: Partial parsing: updated file: medical_data_warehouse://models\staging\schema.yml
+[0m12:49:12.719946 [debug] [MainThread]: Partial parsing: updated file: medical_data_warehouse://models\marts\fct_messages.sql
+[0m12:49:13.147158 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.medical_data_warehouse.fct_image_detections' (models\marts\fct_image_detections.sql) depends on a source named 'public.image_detections' which was not found
+[0m12:49:13.148069 [warn ] [MainThread]: [[33mWARNING[0m][DeprecationsSummary]: Deprecated functionality
+Summary of encountered deprecations:
+- DuplicateYAMLKeysDeprecation: 1 occurrence
+To see all deprecation instances instead of just the first occurrence of each,
+run command again with the `--show-all-deprecations` flag. You may also need to
+run with `--no-partial-parse` as some deprecations are only encountered during
+parsing.
+[0m12:49:13.149068 [debug] [MainThread]: Command `dbt run` failed at 12:49:13.149068 after 1.37 seconds
+[0m12:49:13.149068 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B7712E2330>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B77336E420>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B77336E7E0>]}
+[0m12:49:13.150068 [debug] [MainThread]: Flushing usage events
+[0m12:49:13.878832 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:01:01.388992 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025D3AA85DF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025D3AB63680>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025D3AAE5BB0>]}
+
+
+============================== 13:01:01.395999 | 000b61e2-9b18-4262-b140-28d2a6ab12d8 ==============================
+[0m13:01:01.395999 [info ] [MainThread]: Running with dbt=1.10.4
+[0m13:01:01.395999 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'dbt_project\\logs', 'fail_fast': 'False', 'profiles_dir': 'dbt_project', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt run --project-dir dbt_project --profiles-dir dbt_project --select fct_image_detections', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m13:01:01.630930 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '000b61e2-9b18-4262-b140-28d2a6ab12d8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025D3AB95880>]}
+[0m13:01:01.688930 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '000b61e2-9b18-4262-b140-28d2a6ab12d8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025D3C1C35C0>]}
+[0m13:01:01.689930 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m13:01:01.882429 [debug] [MainThread]: checksum: 073cb5a296270136b24f9c040fdebd0642ef9c263903ef463bfe7e190c538da2, vars: {}, profile: , target: , version: 1.10.4
+[0m13:01:02.020167 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 2 files added, 2 files changed.
+[0m13:01:02.020167 [debug] [MainThread]: Partial parsing: added file: medical_data_warehouse://models\marts\fct_image_detections.sql
+[0m13:01:02.021167 [debug] [MainThread]: Partial parsing: added file: medical_data_warehouse://models\marts\fct_image_detections.yml
+[0m13:01:02.021167 [debug] [MainThread]: Partial parsing: updated file: medical_data_warehouse://models\staging\schema.yml
+[0m13:01:02.021167 [debug] [MainThread]: Partial parsing: updated file: medical_data_warehouse://models\marts\fct_messages.sql
+[0m13:01:02.450417 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.medical_data_warehouse.stg_telegram_messages' (models\staging\stg_telegram_messages.sql) depends on a source named 'raw.telegram_messages' which was not found
+[0m13:01:02.451775 [debug] [MainThread]: Command `dbt run` failed at 13:01:02.451775 after 1.27 seconds
+[0m13:01:02.452878 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025D3AA85DF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025D3CCD2570>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025D3CCD2780>]}
+[0m13:01:02.452878 [debug] [MainThread]: Flushing usage events
+[0m13:01:08.203593 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:02:19.154898 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F78EFC4740>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F78CDA6060>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F78EAA0FB0>]}
+
+
+============================== 13:02:19.158895 | 162d58db-9bbf-4d88-a0ed-00723b8e30d0 ==============================
+[0m13:02:19.158895 [info ] [MainThread]: Running with dbt=1.10.4
+[0m13:02:19.159896 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': 'dbt_project', 'log_path': 'dbt_project\\logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt run --project-dir dbt_project --profiles-dir dbt_project --select fct_image_detections', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m13:02:19.345551 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '162d58db-9bbf-4d88-a0ed-00723b8e30d0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F78F646930>]}
+[0m13:02:19.403677 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '162d58db-9bbf-4d88-a0ed-00723b8e30d0', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F78B9F0800>]}
+[0m13:02:19.404681 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m13:02:19.595136 [debug] [MainThread]: checksum: 073cb5a296270136b24f9c040fdebd0642ef9c263903ef463bfe7e190c538da2, vars: {}, profile: , target: , version: 1.10.4
+[0m13:02:19.667141 [warn ] [MainThread]: [[33mWARNING[0m][DuplicateYAMLKeysDeprecation]: Deprecated functionality
+Duplicate key 'tables' in "<unicode string>", line 8, column 5 in file
+`models\staging\schema.yml`
+[0m13:02:19.668051 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecation', 'label': '162d58db-9bbf-4d88-a0ed-00723b8e30d0', 'property_': 'warn', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F78EB38920>]}
+[0m13:02:19.727396 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 2 files added, 2 files changed.
+[0m13:02:19.728395 [debug] [MainThread]: Partial parsing: added file: medical_data_warehouse://models\marts\fct_image_detections.sql
+[0m13:02:19.728395 [debug] [MainThread]: Partial parsing: added file: medical_data_warehouse://models\marts\fct_image_detections.yml
+[0m13:02:19.729395 [debug] [MainThread]: Partial parsing: updated file: medical_data_warehouse://models\staging\schema.yml
+[0m13:02:19.729395 [debug] [MainThread]: Partial parsing: updated file: medical_data_warehouse://models\marts\fct_messages.sql
+[0m13:02:20.183011 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.medical_data_warehouse.fct_image_detections' (models\marts\fct_image_detections.sql) depends on a source named 'public.image_detections' which was not found
+[0m13:02:20.184005 [warn ] [MainThread]: [[33mWARNING[0m][DeprecationsSummary]: Deprecated functionality
+Summary of encountered deprecations:
+- DuplicateYAMLKeysDeprecation: 1 occurrence
+To see all deprecation instances instead of just the first occurrence of each,
+run command again with the `--show-all-deprecations` flag. You may also need to
+run with `--no-partial-parse` as some deprecations are only encountered during
+parsing.
+[0m13:02:20.185004 [debug] [MainThread]: Command `dbt run` failed at 13:02:20.185004 after 1.20 seconds
+[0m13:02:20.186004 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F78F6153A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F7912C4770>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F79130EB40>]}
+[0m13:02:20.186004 [debug] [MainThread]: Flushing usage events
+[0m13:02:20.909798 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:04:35.722666 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019C4D5A35F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019C4DDA0F80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019C4D414410>]}
+
+
+============================== 13:04:35.726672 | 4827354b-95ab-4bcf-909e-cae7c0235f62 ==============================
+[0m13:04:35.726672 [info ] [MainThread]: Running with dbt=1.10.4
+[0m13:04:35.726672 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'dbt_project', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'dbt_project\\logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt run --project-dir dbt_project --profiles-dir dbt_project --select fct_image_detections', 'send_anonymous_usage_stats': 'True'}
+[0m13:04:35.949028 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '4827354b-95ab-4bcf-909e-cae7c0235f62', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019C4F104140>]}
+[0m13:04:36.008716 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '4827354b-95ab-4bcf-909e-cae7c0235f62', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019C4D7F8B60>]}
+[0m13:04:36.009716 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m13:04:36.209216 [debug] [MainThread]: checksum: 073cb5a296270136b24f9c040fdebd0642ef9c263903ef463bfe7e190c538da2, vars: {}, profile: , target: , version: 1.10.4
+[0m13:04:36.327466 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 2 files added, 2 files changed.
+[0m13:04:36.328469 [debug] [MainThread]: Partial parsing: added file: medical_data_warehouse://models\marts\fct_image_detections.yml
+[0m13:04:36.328469 [debug] [MainThread]: Partial parsing: added file: medical_data_warehouse://models\marts\fct_image_detections.sql
+[0m13:04:36.328469 [debug] [MainThread]: Partial parsing: updated file: medical_data_warehouse://models\staging\schema.yml
+[0m13:04:36.329468 [debug] [MainThread]: Partial parsing: updated file: medical_data_warehouse://models\marts\fct_messages.sql
+[0m13:04:36.825361 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '4827354b-95ab-4bcf-909e-cae7c0235f62', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019C4FF5AA50>]}
+[0m13:04:36.895019 [debug] [MainThread]: Wrote artifact WritableManifest to dbt_project\target\manifest.json
+[0m13:04:36.898325 [debug] [MainThread]: Wrote artifact SemanticManifest to dbt_project\target\semantic_manifest.json
+[0m13:04:36.945222 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '4827354b-95ab-4bcf-909e-cae7c0235f62', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019C4FBEA030>]}
+[0m13:04:36.946258 [info ] [MainThread]: Found 5 models, 4 data tests, 2 sources, 433 macros
+[0m13:04:36.946258 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '4827354b-95ab-4bcf-909e-cae7c0235f62', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019C5002B950>]}
+[0m13:04:36.949218 [info ] [MainThread]: 
+[0m13:04:36.949218 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m13:04:36.950221 [info ] [MainThread]: 
+[0m13:04:36.950221 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m13:04:36.952225 [debug] [ThreadPool]: Acquiring new postgres connection 'list_medical_data'
+[0m13:04:37.209910 [debug] [ThreadPool]: Using postgres connection "list_medical_data"
+[0m13:04:37.209910 [debug] [ThreadPool]: On list_medical_data: /* {"app": "dbt", "dbt_version": "1.10.4", "profile_name": "default", "target_name": "dev", "connection_name": "list_medical_data"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m13:04:37.209910 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m13:04:37.303544 [debug] [ThreadPool]: SQL status: SELECT 4 in 0.093 seconds
+[0m13:04:37.305942 [debug] [ThreadPool]: On list_medical_data: Close
+[0m13:04:37.311936 [debug] [ThreadPool]: Acquiring new postgres connection 'list_medical_data_public'
+[0m13:04:37.316943 [debug] [ThreadPool]: Using postgres connection "list_medical_data_public"
+[0m13:04:37.317941 [debug] [ThreadPool]: On list_medical_data_public: BEGIN
+[0m13:04:37.317941 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m13:04:37.361504 [debug] [ThreadPool]: SQL status: BEGIN in 0.043 seconds
+[0m13:04:37.362567 [debug] [ThreadPool]: Using postgres connection "list_medical_data_public"
+[0m13:04:37.362567 [debug] [ThreadPool]: On list_medical_data_public: /* {"app": "dbt", "dbt_version": "1.10.4", "profile_name": "default", "target_name": "dev", "connection_name": "list_medical_data_public"} */
+select
+      'medical_data' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'public'
+    union all
+    select
+      'medical_data' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'public'
+    union all
+    select
+      'medical_data' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'public'
+  
+[0m13:04:37.386678 [debug] [ThreadPool]: SQL status: SELECT 6 in 0.023 seconds
+[0m13:04:37.388678 [debug] [ThreadPool]: On list_medical_data_public: ROLLBACK
+[0m13:04:37.389912 [debug] [ThreadPool]: On list_medical_data_public: Close
+[0m13:04:37.396918 [debug] [MainThread]: Using postgres connection "master"
+[0m13:04:37.396918 [debug] [MainThread]: On master: BEGIN
+[0m13:04:37.397918 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m13:04:37.434265 [debug] [MainThread]: SQL status: BEGIN in 0.037 seconds
+[0m13:04:37.435267 [debug] [MainThread]: Using postgres connection "master"
+[0m13:04:37.435267 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.10.4", "profile_name": "default", "target_name": "dev", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select distinct
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v', 'm')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+[0m13:04:37.447780 [debug] [MainThread]: SQL status: SELECT 4 in 0.012 seconds
+[0m13:04:37.449785 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '4827354b-95ab-4bcf-909e-cae7c0235f62', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019C503C4F50>]}
+[0m13:04:37.449785 [debug] [MainThread]: On master: ROLLBACK
+[0m13:04:37.450785 [debug] [MainThread]: Using postgres connection "master"
+[0m13:04:37.450785 [debug] [MainThread]: On master: BEGIN
+[0m13:04:37.451782 [debug] [MainThread]: SQL status: BEGIN in 0.000 seconds
+[0m13:04:37.451782 [debug] [MainThread]: On master: COMMIT
+[0m13:04:37.451782 [debug] [MainThread]: Using postgres connection "master"
+[0m13:04:37.451782 [debug] [MainThread]: On master: COMMIT
+[0m13:04:37.452805 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m13:04:37.452805 [debug] [MainThread]: On master: Close
+[0m13:04:37.458074 [debug] [Thread-1 (]: Began running node model.medical_data_warehouse.fct_image_detections
+[0m13:04:37.459080 [info ] [Thread-1 (]: 1 of 1 START sql table model public.fct_image_detections ....................... [RUN]
+[0m13:04:37.459635 [debug] [Thread-1 (]: Acquiring new postgres connection 'model.medical_data_warehouse.fct_image_detections'
+[0m13:04:37.459635 [debug] [Thread-1 (]: Began compiling node model.medical_data_warehouse.fct_image_detections
+[0m13:04:37.465667 [debug] [Thread-1 (]: Writing injected SQL for node "model.medical_data_warehouse.fct_image_detections"
+[0m13:04:37.467643 [debug] [Thread-1 (]: Began executing node model.medical_data_warehouse.fct_image_detections
+[0m13:04:37.509476 [debug] [Thread-1 (]: Writing runtime sql for node "model.medical_data_warehouse.fct_image_detections"
+[0m13:04:37.511449 [debug] [Thread-1 (]: Using postgres connection "model.medical_data_warehouse.fct_image_detections"
+[0m13:04:37.512451 [debug] [Thread-1 (]: On model.medical_data_warehouse.fct_image_detections: BEGIN
+[0m13:04:37.514455 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m13:04:37.679643 [debug] [Thread-1 (]: SQL status: BEGIN in 0.166 seconds
+[0m13:04:37.680653 [debug] [Thread-1 (]: Using postgres connection "model.medical_data_warehouse.fct_image_detections"
+[0m13:04:37.680653 [debug] [Thread-1 (]: On model.medical_data_warehouse.fct_image_detections: /* {"app": "dbt", "dbt_version": "1.10.4", "profile_name": "default", "target_name": "dev", "node_id": "model.medical_data_warehouse.fct_image_detections"} */
+
+  
+    
+
+  create  table "medical_data"."public"."fct_image_detections__dbt_tmp"
+  
+  
+    as
+  
+  (
+    
+
+SELECT 
+    id,
+    message_id,
+    detected_object_class,
+    confidence_score
+FROM "medical_data"."public"."image_detections"
+  );
+  
+[0m13:04:37.784355 [debug] [Thread-1 (]: SQL status: SELECT 367 in 0.103 seconds
+[0m13:04:37.794353 [debug] [Thread-1 (]: Using postgres connection "model.medical_data_warehouse.fct_image_detections"
+[0m13:04:37.795354 [debug] [Thread-1 (]: On model.medical_data_warehouse.fct_image_detections: /* {"app": "dbt", "dbt_version": "1.10.4", "profile_name": "default", "target_name": "dev", "node_id": "model.medical_data_warehouse.fct_image_detections"} */
+alter table "medical_data"."public"."fct_image_detections__dbt_tmp" rename to "fct_image_detections"
+[0m13:04:37.802939 [debug] [Thread-1 (]: SQL status: ALTER TABLE in 0.008 seconds
+[0m13:04:37.815944 [debug] [Thread-1 (]: On model.medical_data_warehouse.fct_image_detections: COMMIT
+[0m13:04:37.815944 [debug] [Thread-1 (]: Using postgres connection "model.medical_data_warehouse.fct_image_detections"
+[0m13:04:37.816944 [debug] [Thread-1 (]: On model.medical_data_warehouse.fct_image_detections: COMMIT
+[0m13:04:37.824401 [debug] [Thread-1 (]: SQL status: COMMIT in 0.008 seconds
+[0m13:04:37.833502 [debug] [Thread-1 (]: Applying DROP to: "medical_data"."public"."fct_image_detections__dbt_backup"
+[0m13:04:37.837498 [debug] [Thread-1 (]: Using postgres connection "model.medical_data_warehouse.fct_image_detections"
+[0m13:04:37.837498 [debug] [Thread-1 (]: On model.medical_data_warehouse.fct_image_detections: /* {"app": "dbt", "dbt_version": "1.10.4", "profile_name": "default", "target_name": "dev", "node_id": "model.medical_data_warehouse.fct_image_detections"} */
+drop table if exists "medical_data"."public"."fct_image_detections__dbt_backup" cascade
+[0m13:04:37.839577 [debug] [Thread-1 (]: SQL status: DROP TABLE in 0.002 seconds
+[0m13:04:37.842498 [debug] [Thread-1 (]: On model.medical_data_warehouse.fct_image_detections: Close
+[0m13:04:37.844413 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '4827354b-95ab-4bcf-909e-cae7c0235f62', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019C4FAAA630>]}
+[0m13:04:37.845408 [info ] [Thread-1 (]: 1 of 1 OK created sql table model public.fct_image_detections .................. [[32mSELECT 367[0m in 0.38s]
+[0m13:04:37.847408 [debug] [Thread-1 (]: Finished running node model.medical_data_warehouse.fct_image_detections
+[0m13:04:37.847913 [debug] [MainThread]: Using postgres connection "master"
+[0m13:04:37.849353 [debug] [MainThread]: On master: BEGIN
+[0m13:04:37.849353 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m13:04:37.896217 [debug] [MainThread]: SQL status: BEGIN in 0.047 seconds
+[0m13:04:37.897214 [debug] [MainThread]: On master: COMMIT
+[0m13:04:37.897214 [debug] [MainThread]: Using postgres connection "master"
+[0m13:04:37.898212 [debug] [MainThread]: On master: COMMIT
+[0m13:04:37.898708 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m13:04:37.898708 [debug] [MainThread]: On master: Close
+[0m13:04:37.898708 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m13:04:37.899716 [debug] [MainThread]: Connection 'list_medical_data' was properly closed.
+[0m13:04:37.899716 [debug] [MainThread]: Connection 'list_medical_data_public' was properly closed.
+[0m13:04:37.899716 [debug] [MainThread]: Connection 'model.medical_data_warehouse.fct_image_detections' was properly closed.
+[0m13:04:37.899716 [info ] [MainThread]: 
+[0m13:04:37.900721 [info ] [MainThread]: Finished running 1 table model in 0 hours 0 minutes and 0.95 seconds (0.95s).
+[0m13:04:37.902029 [debug] [MainThread]: Command end result
+[0m13:04:37.927461 [debug] [MainThread]: Wrote artifact WritableManifest to dbt_project\target\manifest.json
+[0m13:04:37.930463 [debug] [MainThread]: Wrote artifact SemanticManifest to dbt_project\target\semantic_manifest.json
+[0m13:04:37.939727 [debug] [MainThread]: Wrote artifact RunExecutionResult to dbt_project\target\run_results.json
+[0m13:04:37.941727 [info ] [MainThread]: 
+[0m13:04:37.943146 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m13:04:37.943952 [info ] [MainThread]: 
+[0m13:04:37.943952 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=1
+[0m13:04:37.944997 [debug] [MainThread]: Command `dbt run` succeeded at 13:04:37.944997 after 2.40 seconds
+[0m13:04:37.946004 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019C5002BC20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019C50028CB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019C4CEFABA0>]}
+[0m13:04:37.946004 [debug] [MainThread]: Flushing usage events
+[0m13:04:38.685606 [debug] [MainThread]: An error was encountered while trying to flush usage events
