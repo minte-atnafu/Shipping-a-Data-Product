@@ -1,0 +1,17 @@
+version: 2
+
+models:
+  - name: fct_image_detections
+    columns:
+      - name: id
+        tests:
+          - unique
+          - not_null
+      - name: message_id
+        tests:
+          - not_null
+      - name: confidence_score
+        tests:
+          - dbt_utils.expression_is_true:
+              expression: "confidence_score BETWEEN 0 AND 1"
+              name: valid_confidence_score
