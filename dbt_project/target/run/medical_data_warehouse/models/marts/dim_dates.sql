@@ -2,7 +2,7 @@
   
     
 
-  create  table "medical_data"."public"."dim_dates__dbt_tmp"
+  create  table "medical_data"."public_marts"."dim_dates__dbt_tmp"
   
   
     as
