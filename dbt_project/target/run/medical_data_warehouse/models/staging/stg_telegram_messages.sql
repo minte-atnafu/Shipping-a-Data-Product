@@ -1,5 +1,5 @@
 
-  create view "medical_data"."public"."stg_telegram_messages__dbt_tmp"
+  create view "medical_data"."public_staging"."stg_telegram_messages__dbt_tmp"
     
     
   as (
