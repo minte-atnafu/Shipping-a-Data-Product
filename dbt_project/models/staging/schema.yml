@@ -1,7 +1,9 @@
 version: 2
 
 sources:
+  - name: public
+    tables:
+      - name: image_detections
   - name: raw
-    schema: public
     tables:
       - name: telegram_messages

@@ -2415,3 +2415,223 @@ LINE 1: SELECT 1 FROM marts.fct_messages LIMIT 1
 
 [SQL: SELECT 1 FROM marts.fct_messages LIMIT 1]
 (Background on this error at: https://sqlalche.me/e/20/f405)
+2025-07-18 10:25:03,439 - DEBUG - Processing top-products request with limit=5
+2025-07-18 10:25:03,517 - ERROR - Error in get_top_products: (psycopg2.errors.UndefinedTable) relation "marts.fct_messages" does not exist
+LINE 1: SELECT 1 FROM marts.fct_messages LIMIT 1
+                      ^
+
+[SQL: SELECT 1 FROM marts.fct_messages LIMIT 1]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+Traceback (most recent call last):
+  File "C:\Users\mintesinot\week_7\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1963, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\mintesinot\week_7\venv\Lib\site-packages\sqlalchemy\engine\default.py", line 943, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UndefinedTable: relation "marts.fct_messages" does not exist
+LINE 1: SELECT 1 FROM marts.fct_messages LIMIT 1
+                      ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\mintesinot\week_7\api\crud.py", line 38, in get_top_products
+    db.execute(text("SELECT 1 FROM marts.fct_messages LIMIT 1"))
+  File "C:\Users\mintesinot\week_7\venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2365, in execute
+    return self._execute_internal(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mintesinot\week_7\venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2260, in _execute_internal
+    result = conn.execute(
+             ^^^^^^^^^^^^^
+  File "C:\Users\mintesinot\week_7\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1415, in execute
+    return meth(
+           ^^^^^
+  File "C:\Users\mintesinot\week_7\venv\Lib\site-packages\sqlalchemy\sql\elements.py", line 523, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mintesinot\week_7\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1637, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mintesinot\week_7\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1842, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mintesinot\week_7\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1982, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\mintesinot\week_7\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2351, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\mintesinot\week_7\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1963, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\mintesinot\week_7\venv\Lib\site-packages\sqlalchemy\engine\default.py", line 943, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedTable) relation "marts.fct_messages" does not exist
+LINE 1: SELECT 1 FROM marts.fct_messages LIMIT 1
+                      ^
+
+[SQL: SELECT 1 FROM marts.fct_messages LIMIT 1]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-07-18 10:25:03,527 - ERROR - Error in top-products endpoint: (psycopg2.errors.UndefinedTable) relation "marts.fct_messages" does not exist
+LINE 1: SELECT 1 FROM marts.fct_messages LIMIT 1
+                      ^
+
+[SQL: SELECT 1 FROM marts.fct_messages LIMIT 1]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+Traceback (most recent call last):
+  File "C:\Users\mintesinot\week_7\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1963, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\mintesinot\week_7\venv\Lib\site-packages\sqlalchemy\engine\default.py", line 943, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UndefinedTable: relation "marts.fct_messages" does not exist
+LINE 1: SELECT 1 FROM marts.fct_messages LIMIT 1
+                      ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\mintesinot\week_7\api\main.py", line 23, in get_top_products
+    result = crud.get_top_products(db, limit)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mintesinot\week_7\api\crud.py", line 38, in get_top_products
+    db.execute(text("SELECT 1 FROM marts.fct_messages LIMIT 1"))
+  File "C:\Users\mintesinot\week_7\venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2365, in execute
+    return self._execute_internal(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mintesinot\week_7\venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2260, in _execute_internal
+    result = conn.execute(
+             ^^^^^^^^^^^^^
+  File "C:\Users\mintesinot\week_7\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1415, in execute
+    return meth(
+           ^^^^^
+  File "C:\Users\mintesinot\week_7\venv\Lib\site-packages\sqlalchemy\sql\elements.py", line 523, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mintesinot\week_7\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1637, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mintesinot\week_7\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1842, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mintesinot\week_7\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1982, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\mintesinot\week_7\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2351, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\mintesinot\week_7\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1963, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\mintesinot\week_7\venv\Lib\site-packages\sqlalchemy\engine\default.py", line 943, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedTable) relation "marts.fct_messages" does not exist
+LINE 1: SELECT 1 FROM marts.fct_messages LIMIT 1
+                      ^
+
+[SQL: SELECT 1 FROM marts.fct_messages LIMIT 1]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-07-18 10:33:39,747 - DEBUG - Processing top-products request with limit=5
+2025-07-18 10:33:39,766 - ERROR - Error in get_top_products: (psycopg2.errors.UndefinedTable) relation "marts.fct_messages" does not exist
+LINE 1: SELECT 1 FROM marts.fct_messages LIMIT 1
+                      ^
+
+[SQL: SELECT 1 FROM marts.fct_messages LIMIT 1]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+Traceback (most recent call last):
+  File "C:\Users\mintesinot\week_7\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1963, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\mintesinot\week_7\venv\Lib\site-packages\sqlalchemy\engine\default.py", line 943, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UndefinedTable: relation "marts.fct_messages" does not exist
+LINE 1: SELECT 1 FROM marts.fct_messages LIMIT 1
+                      ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\mintesinot\week_7\api\crud.py", line 38, in get_top_products
+    db.execute(text("SELECT 1 FROM marts.fct_messages LIMIT 1"))
+  File "C:\Users\mintesinot\week_7\venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2365, in execute
+    return self._execute_internal(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mintesinot\week_7\venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2260, in _execute_internal
+    result = conn.execute(
+             ^^^^^^^^^^^^^
+  File "C:\Users\mintesinot\week_7\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1415, in execute
+    return meth(
+           ^^^^^
+  File "C:\Users\mintesinot\week_7\venv\Lib\site-packages\sqlalchemy\sql\elements.py", line 523, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mintesinot\week_7\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1637, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mintesinot\week_7\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1842, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mintesinot\week_7\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1982, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\mintesinot\week_7\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2351, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\mintesinot\week_7\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1963, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\mintesinot\week_7\venv\Lib\site-packages\sqlalchemy\engine\default.py", line 943, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedTable) relation "marts.fct_messages" does not exist
+LINE 1: SELECT 1 FROM marts.fct_messages LIMIT 1
+                      ^
+
+[SQL: SELECT 1 FROM marts.fct_messages LIMIT 1]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-07-18 10:33:39,782 - ERROR - Error in top-products endpoint: (psycopg2.errors.UndefinedTable) relation "marts.fct_messages" does not exist
+LINE 1: SELECT 1 FROM marts.fct_messages LIMIT 1
+                      ^
+
+[SQL: SELECT 1 FROM marts.fct_messages LIMIT 1]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+Traceback (most recent call last):
+  File "C:\Users\mintesinot\week_7\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1963, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\mintesinot\week_7\venv\Lib\site-packages\sqlalchemy\engine\default.py", line 943, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UndefinedTable: relation "marts.fct_messages" does not exist
+LINE 1: SELECT 1 FROM marts.fct_messages LIMIT 1
+                      ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\mintesinot\week_7\api\main.py", line 23, in get_top_products
+    result = crud.get_top_products(db, limit)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mintesinot\week_7\api\crud.py", line 38, in get_top_products
+    db.execute(text("SELECT 1 FROM marts.fct_messages LIMIT 1"))
+  File "C:\Users\mintesinot\week_7\venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2365, in execute
+    return self._execute_internal(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mintesinot\week_7\venv\Lib\site-packages\sqlalchemy\orm\session.py", line 2260, in _execute_internal
+    result = conn.execute(
+             ^^^^^^^^^^^^^
+  File "C:\Users\mintesinot\week_7\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1415, in execute
+    return meth(
+           ^^^^^
+  File "C:\Users\mintesinot\week_7\venv\Lib\site-packages\sqlalchemy\sql\elements.py", line 523, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mintesinot\week_7\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1637, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mintesinot\week_7\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1842, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mintesinot\week_7\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1982, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\mintesinot\week_7\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 2351, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\mintesinot\week_7\venv\Lib\site-packages\sqlalchemy\engine\base.py", line 1963, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\mintesinot\week_7\venv\Lib\site-packages\sqlalchemy\engine\default.py", line 943, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedTable) relation "marts.fct_messages" does not exist
+LINE 1: SELECT 1 FROM marts.fct_messages LIMIT 1
+                      ^
+
+[SQL: SELECT 1 FROM marts.fct_messages LIMIT 1]
+(Background on this error at: https://sqlalche.me/e/20/f405)
